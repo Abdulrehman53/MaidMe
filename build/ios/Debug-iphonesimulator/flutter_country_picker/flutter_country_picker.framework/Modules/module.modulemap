@@ -1,0 +1,11 @@
+framework module flutter_country_picker {
+  umbrella header "flutter_country_picker-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_country_picker.Swift {
+    header "flutter_country_picker-Swift.h"
+    requires objc
+}
